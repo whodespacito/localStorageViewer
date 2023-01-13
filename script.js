@@ -7,5 +7,6 @@ while (localStorage.key(index) !== null) {
     index++;
 }
 
+constructor = constructor + "</table>";
 let app = open("", "viewer", params);
 app.document.write(constructor);
